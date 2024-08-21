@@ -48,13 +48,16 @@ body{
   border: 2px solid black;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(171, 185, 159);
-  width: 400px;
+
+
   background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-greeting-card-background-template-design-5cdce86655eed31b371eaed773a4fd32_screen.jpg?ts=1695664893);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #img{
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  box-shadow: 10px 10px 10px rgb(212, 207, 207);
 }
