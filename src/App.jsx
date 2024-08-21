@@ -13,21 +13,20 @@ const card = [{
 }];
 
 function App() {
+const arr = card.map((data)=>{
+  return(
+    <div key={data.name}>
+      <h2>Name:{data.name}</h2>
+      <h2>RollNumber:{data.RollNumber}</h2>
+      <h2>Trainer:{data.Trainer}</h2>
+      <h2><img src={data.img} alt={data.name} id='img' /></h2>
+      <h2>Batch:{data.Batch}</h2>
 
-  const arr = card.map((data)=>{
-    return(
-      <div key={data.name}>
-        <h2>Name : {data.name}</h2>
-        <h2>Roll Number : {data.RollNumber}</h2>
-        <h2>Trainer:{data.Trainer}</h2>
-        <h2>Batch:{data.Batch}</h2>
-        <img src={data.img} alt={data.name} id='img' />
-      </div>
-    );
-  });
-  return <div id='mainDiv'>{arr}</div>
-
-
+    </div>
+    
+  )
+})
+return <div id='mainDiv'>{arr}</div>
 
 }
 

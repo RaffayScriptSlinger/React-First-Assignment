@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+body{
+  background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-royal-golden-blue-mandala-art-background-with-border-invitation-card-wedding-picture-image_1596347.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -43,9 +47,11 @@
 #mainDiv{
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(112, 197, 27);
-  width: 350px;
-  background-color: chartreuse;
+  box-shadow: 10px 10px 10px rgb(171, 185, 159);
+  width: 400px;
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-greeting-card-background-template-design-5cdce86655eed31b371eaed773a4fd32_screen.jpg?ts=1695664893);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #img{
   border-radius: 50%;
